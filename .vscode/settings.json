@@ -1,0 +1,17 @@
+{
+    "Lua.diagnostics.globals": [
+        "playdate"
+    ],
+    "Lua.runtime.special": {
+        "include": "require"
+    },
+    "Lua.workspace.library": [
+        "${env:PLAYDATE_SDK_PATH}/CoreLibs"
+    ],
+    "Lua.runtime.nonstandardSymbol": [
+        "+=",
+        "-=",
+        "*=",
+        "/="
+    ]
+}

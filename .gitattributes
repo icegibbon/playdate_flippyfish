@@ -1,0 +1,6 @@
+*.png binary -delta
+*.pdi binary -delta
+*.pdz binary -delta
+*.pft binary -delta
+
+
